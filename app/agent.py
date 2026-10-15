@@ -12,7 +12,6 @@ from pydantic import BaseModel, Field, ValidationError
 load_dotenv()
 
 CHAT_MODEL = 'gemini-3.6-flash'
-CHAT_MODEL_TEST = 'gemini-3.6-flash-test'
 
 
 def make_model():
