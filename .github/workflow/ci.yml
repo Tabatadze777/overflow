@@ -2,6 +2,7 @@ name: CI
 
 on:
   push:
+    branches: [feat/some_feat]
 
 
 jobs:
