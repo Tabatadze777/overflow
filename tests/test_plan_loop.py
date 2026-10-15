@@ -1,5 +1,5 @@
 import pytest
-from fake_model import DEFAULT_PLAN
+from .fake_model import DEFAULT_PLAN
 from langchain_core.exceptions import OutputParserException
 from langgraph.graph import END
 

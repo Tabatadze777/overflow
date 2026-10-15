@@ -1,7 +1,7 @@
 import json
 
 import pytest
-from fake_model import tool_call
+from .fake_model import tool_call
 from fastapi.testclient import TestClient
 from langchain_core.messages import AIMessage
 from langgraph.checkpoint.memory import InMemorySaver

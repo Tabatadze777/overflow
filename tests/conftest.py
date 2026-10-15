@@ -3,7 +3,7 @@ import os
 os.environ.setdefault('DATABASE_URL', 'postgresql://trip:trip@localhost:5432/trip_test')
 
 import pytest
-from fake_model import FakeModel
+from .fake_model import FakeModel
 
 from app import agent
 
